@@ -1,0 +1,28 @@
+2019-02-14 20:43:39,427 INFO 14104 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\task\\task\\logs\\task","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"task-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-14 20:43:39,487 INFO 14104 [egg-multipart] stream mode enable
+2019-02-14 20:43:39,628 INFO 14104 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\task\task\app\public
+2019-02-14 20:43:39,634 INFO 14104 [egg-security] use csrf middleware
+2019-02-14 20:43:39,636 INFO 14104 [egg-security] use methodnoallow middleware
+2019-02-14 20:43:39,636 INFO 14104 [egg-security] use noopen middleware
+2019-02-14 20:43:39,638 INFO 14104 [egg-security] use nosniff middleware
+2019-02-14 20:43:39,638 INFO 14104 [egg-security] use xssProtection middleware
+2019-02-14 20:43:39,639 INFO 14104 [egg-security] use xframe middleware
+2019-02-14 20:43:39,639 INFO 14104 [egg-security] use dta middleware
+2019-02-14 20:43:39,639 INFO 14104 [egg-security] compose 7 middlewares into one security middleware
+2019-02-14 20:43:39,656 INFO 14104 [egg:core] dump config after load, 11ms
+2019-02-14 20:43:39,692 INFO 14104 [egg-watcher:application] watcher start success
+2019-02-14 20:43:39,703 INFO 14104 [egg:core] dump config after ready, 9ms
+2019-02-14 20:44:50,342 INFO 16252 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\task\\task\\logs\\task","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"task-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-14 20:44:50,439 INFO 16252 [egg-multipart] stream mode enable
+2019-02-14 20:44:50,626 INFO 16252 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\task\task\app\public
+2019-02-14 20:44:50,633 INFO 16252 [egg-security] use csrf middleware
+2019-02-14 20:44:50,637 INFO 16252 [egg-security] use methodnoallow middleware
+2019-02-14 20:44:50,639 INFO 16252 [egg-security] use noopen middleware
+2019-02-14 20:44:50,641 INFO 16252 [egg-security] use nosniff middleware
+2019-02-14 20:44:50,642 INFO 16252 [egg-security] use xssProtection middleware
+2019-02-14 20:44:50,643 INFO 16252 [egg-security] use xframe middleware
+2019-02-14 20:44:50,644 INFO 16252 [egg-security] use dta middleware
+2019-02-14 20:44:50,644 INFO 16252 [egg-security] compose 7 middlewares into one security middleware
+2019-02-14 20:44:50,674 INFO 16252 [egg:core] dump config after load, 15ms
+2019-02-14 20:44:50,703 INFO 16252 [egg-watcher:application] watcher start success
+2019-02-14 20:44:50,719 INFO 16252 [egg:core] dump config after ready, 13ms

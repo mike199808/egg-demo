@@ -1,0 +1,6 @@
+2019-02-14 20:43:39,718 INFO 7408 [Timer] C:\Users\Administrator\Desktop\task\task\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 11780286ms at 2019-02-15 00:00:00.004
+2019-02-14 20:43:39,718 INFO 7408 [Timer] C:\Users\Administrator\Desktop\task\task\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 11781282ms at 2019-02-15 00:00:01.000
+2019-02-14 20:43:39,486 INFO 14104 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\task\task\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-14 20:43:39,486 INFO 14104 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\task\task\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2019-02-14 20:44:50,438 INFO 16252 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\task\task\node_modules\egg-logrotator\app\schedule\clean_log.js
+2019-02-14 20:44:50,438 INFO 16252 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\task\task\node_modules\egg-logrotator\app\schedule\rotate_by_file.js

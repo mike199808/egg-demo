@@ -1,0 +1,15 @@
+2019-02-14 20:44:00,956 ERROR 14104 [-/::1/-/100ms GET /test] nodejs.TypeError: this.service.getDate is not a function
+    at TestController.index (C:\Users\Administrator\Desktop\task\task\app\controller\test.js:8:31)
+    at Object.callFn (C:\Users\Administrator\Desktop\task\task\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\task\task\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\task\task\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\task\task\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\task\task\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\task\task\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\task\task\node_modules\@eggjs\router\lib\router.js:344:16
+    at dispatch (C:\Users\Administrator\Desktop\task\task\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\task\task\node_modules\koa-compose\index.js:36:12
+
+pid: 14104
+hostname: SC-201803310101
+
