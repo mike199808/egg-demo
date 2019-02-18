@@ -1,0 +1,68 @@
+2019-02-17 00:00:04,412 ERROR 2824 [-/127.0.0.1/ae260406-a205-4ff0-b0c2-1b31c08c5cda/53ms GET /] nodejs.TypeError: Cannot read property 'APP_ERROR_CODE' of undefined
+    at errCatch (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\errCatch.js:10:36)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 2824
+hostname: SC-201803310101
+
+2019-02-17 00:02:58,570 ERROR 16760 [-/127.0.0.1/cb9642e1-532a-4ffe-81dc-4df77972ed47/43ms GET /] nodejs.TypeError: Cannot read property 'APP_ERROR_CODE' of undefined
+    at errCatch (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\errCatch.js:10:36)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 16760
+hostname: SC-201803310101
+
+2019-02-17 00:08:52,398 ERROR 12432 [-/127.0.0.1/4053810e-de8b-4a04-83a6-2afbd4bde535/15ms GET /] nodejs.TypeError: Cannot read property 'APP_ERROR_CODE' of undefined
+    at errCatch (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\errCatch.js:11:36)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 12432
+hostname: SC-201803310101
+
+2019-02-17 00:10:28,904 ERROR 9148 [-/127.0.0.1/c463d059-8883-4a15-8b3f-887f2456bb97/32ms GET /] nodejs.TypeError: Cannot read property 'APP_ERROR_CODE' of undefined
+    at errCatch (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\errCatch.js:11:36)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 9148
+hostname: SC-201803310101
+
+2019-02-17 00:13:39,733 ERROR 16108 [-/127.0.0.1/b210d6f0-3d76-4adb-b372-c76e4b6390ec/16ms GET /] nodejs.TypeError: Cannot read property 'APP_ERROR_CODE' of undefined
+    at errCatch (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\errCatch.js:11:36)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 16108
+hostname: SC-201803310101
+
+2019-02-17 00:15:08,485 ERROR 2484 [-/127.0.0.1/363d2250-9293-4e3b-8f04-9a8ec6f7cb6a/13ms GET /] nodejs.TypeError: Cannot read property 'api' of undefined
+    at errCatch (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\errCatch.js:9:30)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 2484
+hostname: SC-201803310101
+
+2019-02-17 00:16:48,357 ERROR 14352 [-/127.0.0.1/9b009f8b-dd6b-4844-bf86-e32ead79c573/25ms GET /] nodejs.TypeError: Cannot read property 'APP_ERROR_CODE' of undefined
+    at errCatch (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\errCatch.js:11:36)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 14352
+hostname: SC-201803310101
+
+2019-02-17 00:16:51,248 ERROR 18452 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:660:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18452
+hostname: SC-201803310101
+
+2019-02-17 00:18:27,529 ERROR 11216 [-/127.0.0.1/250147ac-a370-47ea-a8fb-001aabc50706/35ms GET /] nodejs.TypeError: Cannot read property 'APP_ERROR_CODE' of undefined
+    at errCatch (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\errCatch.js:11:36)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 11216
+hostname: SC-201803310101
+
+2019-02-18 19:59:47,647 ERROR 9708 [-/127.0.0.1/a935b12f-d4d8-4b28-ae17-119217ed27e7/43ms GET /] fashengcuowu1
+2019-02-18 20:05:49,343 ERROR 7200 [-/127.0.0.1/ce1dde14-c40e-47e9-b631-2a4f1bd4955a/39ms GET /] fashengcuowu1
+2019-02-18 20:05:50,420 ERROR 7200 [-/127.0.0.1/a0d9c501-63ba-4e36-bb75-b92767a23480/19ms GET /] fashengcuowu1
