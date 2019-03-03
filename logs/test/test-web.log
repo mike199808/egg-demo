@@ -141,3 +141,320 @@ hostname: SC-201803310101
 2019-02-18 20:10:34,478 INFO 8856 [-/127.0.0.1/455f61a0-0531-4b39-8dbf-3ff74ec46e32/1ms GET /favicon.ico] Request: GET /favicon.ico undefined
 2019-02-18 20:15:46,605 INFO 5396 [-/::1/4649cbe6-e1da-4ec4-9048-bf4a6e0c56a7/9ms GET /] Request: GET / undefined
 2019-02-18 20:15:46,619 INFO 5396 [-/::1/4649cbe6-e1da-4ec4-9048-bf4a6e0c56a7/23ms GET /] Response 13ms: hi, egg
+2019-02-18 20:55:19,099 INFO 12228 [-/::1/d2097c9e-31f1-44da-9878-bf03fb116593/12ms GET /] Request: GET / undefined
+2019-02-18 20:55:19,114 INFO 12228 [-/::1/d2097c9e-31f1-44da-9878-bf03fb116593/28ms GET /] Response 9ms: hi, egg
+2019-02-18 21:04:13,064 INFO 7844 [-/::1/7c63d0e6-db45-4708-8f6d-7c1fc7c33a5c/3ms GET /] Request: GET / undefined
+2019-02-18 21:04:13,078 INFO 7844 [-/::1/7c63d0e6-db45-4708-8f6d-7c1fc7c33a5c/17ms GET /] Response 13ms: hi, egg
+2019-02-18 21:04:27,297 INFO 16488 [-/::1/bf3fe979-0552-442e-8861-58f1ffe1804e/3ms GET /] Request: GET / undefined
+2019-02-18 21:04:27,338 ERROR 16488 [-/::1/bf3fe979-0552-442e-8861-58f1ffe1804e/44ms GET /] 我是错误码测试
+2019-02-18 21:04:27,339 INFO 16488 [-/::1/bf3fe979-0552-442e-8861-58f1ffe1804e/45ms GET /] Response 38ms: {"code":"010000","traceId":"bf3fe979-0552-442e-8861-58f1ffe1804e","message":"我是错误码测试"}
+2019-02-18 22:56:23,111 INFO 17252 [-/::1/61a0b16d-bfda-4884-8424-4b225ee4baf0/2ms GET /] Request: GET / undefined
+2019-02-18 22:56:23,158 ERROR 17252 [-/::1/61a0b16d-bfda-4884-8424-4b225ee4baf0/49ms GET /] 我是错误码测试
+2019-02-18 22:56:23,159 INFO 17252 [-/::1/61a0b16d-bfda-4884-8424-4b225ee4baf0/50ms GET /] Response 47ms: {"code":"010000","traceId":"61a0b16d-bfda-4884-8424-4b225ee4baf0","message":"我是错误码测试"}
+2019-02-18 22:58:09,547 INFO 4480 [-/::1/9efb610b-f363-4e69-98b8-e05c4ebfdbc6/2ms GET /] Request: GET / undefined
+2019-02-18 22:58:09,560 INFO 4480 [-/::1/9efb610b-f363-4e69-98b8-e05c4ebfdbc6/15ms GET /] Response 13ms: hi, egg
+2019-02-18 22:58:09,660 INFO 4480 [-/::1/680a98be-5ecb-45e7-bd05-d5f8654e7209/0ms GET /favicon.ico] Request: GET /favicon.ico undefined
+2019-02-18 23:04:37,190 ERROR 17524 [-/127.0.0.1/-/5ms GET /] nodejs.TypeError: Cannot read property '0' of undefined
+    at forbidIp (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\forbidip.js:6:32)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:34:12
+    at Application.handleRequest (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\lib\application.js:151:12)
+    at Application.handleRequest (C:\Users\Administrator\Desktop\eggtest\test\node_modules\egg\lib\application.js:201:11)
+    at Server.handleRequest (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\lib\application.js:133:19)
+    at Server.emit (events.js:182:13)
+    at parserOnIncoming (_http_server.js:652:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:109:17)
+
+pid: 17524
+hostname: SC-201803310101
+
+2019-02-18 23:04:38,275 ERROR 17524 [-/127.0.0.1/-/0ms GET /favicon.ico] nodejs.TypeError: Cannot read property '0' of undefined
+    at forbidIp (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\forbidip.js:6:32)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:34:12
+    at Application.handleRequest (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\lib\application.js:151:12)
+    at Application.handleRequest (C:\Users\Administrator\Desktop\eggtest\test\node_modules\egg\lib\application.js:201:11)
+    at Server.handleRequest (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\lib\application.js:133:19)
+    at Server.emit (events.js:182:13)
+    at parserOnIncoming (_http_server.js:652:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:109:17)
+
+pid: 17524
+hostname: SC-201803310101
+
+2019-02-18 23:05:37,109 ERROR 4052 [-/127.0.0.1/-/6ms GET /] nodejs.TypeError: Cannot read property '0' of undefined
+    at forbidIp (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\forbidip.js:6:32)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:34:12
+    at Application.handleRequest (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\lib\application.js:151:12)
+    at Application.handleRequest (C:\Users\Administrator\Desktop\eggtest\test\node_modules\egg\lib\application.js:201:11)
+    at Server.handleRequest (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\lib\application.js:133:19)
+    at Server.emit (events.js:182:13)
+    at parserOnIncoming (_http_server.js:652:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:109:17)
+
+pid: 4052
+hostname: SC-201803310101
+
+2019-02-18 23:05:38,153 ERROR 4052 [-/127.0.0.1/-/0ms GET /favicon.ico] nodejs.TypeError: Cannot read property '0' of undefined
+    at forbidIp (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\forbidip.js:6:32)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:34:12
+    at Application.handleRequest (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\lib\application.js:151:12)
+    at Application.handleRequest (C:\Users\Administrator\Desktop\eggtest\test\node_modules\egg\lib\application.js:201:11)
+    at Server.handleRequest (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\lib\application.js:133:19)
+    at Server.emit (events.js:182:13)
+    at parserOnIncoming (_http_server.js:652:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:109:17)
+
+pid: 4052
+hostname: SC-201803310101
+
+2019-02-18 23:06:41,003 INFO 4000 [-/127.0.0.1/424956b3-d695-482b-ab78-ba07781d9033/1ms GET /] Request: GET / undefined
+2019-02-18 23:06:41,068 ERROR 4000 [-/127.0.0.1/424956b3-d695-482b-ab78-ba07781d9033/66ms GET /] nodejs.TypeError: Cannot read property '0' of undefined
+    at forbidIp (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\forbidip.js:6:32)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at errCatch (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\errCatch.js:5:13)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at response (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\response.js:5:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at request (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\request.js:8:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at uuid (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\uuid.js:8:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4000
+hostname: SC-201803310101
+
+2019-02-18 23:06:41,070 INFO 4000 [-/127.0.0.1/424956b3-d695-482b-ab78-ba07781d9033/69ms GET /] Response 29ms: {"code":"010000","traceId":"424956b3-d695-482b-ab78-ba07781d9033"}
+2019-02-18 23:06:41,432 INFO 4000 [-/127.0.0.1/2b8893f0-3742-47d9-aa88-e1043b205e0f/0ms GET /favicon.ico] Request: GET /favicon.ico undefined
+2019-02-18 23:06:41,450 ERROR 4000 [-/127.0.0.1/2b8893f0-3742-47d9-aa88-e1043b205e0f/19ms GET /favicon.ico] nodejs.TypeError: Cannot read property '0' of undefined
+    at forbidIp (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\forbidip.js:6:32)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at errCatch (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\errCatch.js:5:13)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at response (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\response.js:5:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at request (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\request.js:8:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at uuid (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\uuid.js:8:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4000
+hostname: SC-201803310101
+
+2019-02-18 23:06:41,451 INFO 4000 [-/127.0.0.1/2b8893f0-3742-47d9-aa88-e1043b205e0f/20ms GET /favicon.ico] Response 18ms: {"code":"010000","traceId":"2b8893f0-3742-47d9-aa88-e1043b205e0f"}
+2019-02-18 23:07:05,106 INFO 4000 [-/127.0.0.1/cb9b7c92-c30c-42d2-b43e-827e9e905881/0ms GET /] Request: GET / undefined
+2019-02-18 23:07:05,121 ERROR 4000 [-/127.0.0.1/cb9b7c92-c30c-42d2-b43e-827e9e905881/15ms GET /] nodejs.TypeError: Cannot read property '0' of undefined
+    at forbidIp (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\forbidip.js:6:32)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at errCatch (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\errCatch.js:5:13)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at response (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\response.js:5:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at request (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\request.js:8:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at uuid (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\uuid.js:8:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4000
+hostname: SC-201803310101
+
+2019-02-18 23:07:05,122 INFO 4000 [-/127.0.0.1/cb9b7c92-c30c-42d2-b43e-827e9e905881/16ms GET /] Response 15ms: {"code":"010000","traceId":"cb9b7c92-c30c-42d2-b43e-827e9e905881"}
+2019-02-18 23:07:05,203 INFO 4000 [-/127.0.0.1/5d57d051-296c-45e2-a34a-a07e0b2267fb/0ms GET /favicon.ico] Request: GET /favicon.ico undefined
+2019-02-18 23:07:05,216 ERROR 4000 [-/127.0.0.1/5d57d051-296c-45e2-a34a-a07e0b2267fb/13ms GET /favicon.ico] nodejs.TypeError: Cannot read property '0' of undefined
+    at forbidIp (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\forbidip.js:6:32)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at errCatch (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\errCatch.js:5:13)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at response (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\response.js:5:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at request (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\request.js:8:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at uuid (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\uuid.js:8:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4000
+hostname: SC-201803310101
+
+2019-02-18 23:07:05,222 INFO 4000 [-/127.0.0.1/5d57d051-296c-45e2-a34a-a07e0b2267fb/19ms GET /favicon.ico] Response 19ms: {"code":"010000","traceId":"5d57d051-296c-45e2-a34a-a07e0b2267fb"}
+2019-02-18 23:07:10,364 INFO 4000 [-/127.0.0.1/aedd8753-8320-4c66-a159-10bc329575b8/0ms GET /test] Request: GET /test undefined
+2019-02-18 23:07:10,400 ERROR 4000 [-/127.0.0.1/aedd8753-8320-4c66-a159-10bc329575b8/36ms GET /test] nodejs.TypeError: Cannot read property '0' of undefined
+    at forbidIp (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\forbidip.js:6:32)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at errCatch (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\errCatch.js:5:13)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at response (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\response.js:5:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at request (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\request.js:8:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at uuid (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\uuid.js:8:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4000
+hostname: SC-201803310101
+
+2019-02-18 23:07:10,410 INFO 4000 [-/127.0.0.1/aedd8753-8320-4c66-a159-10bc329575b8/46ms GET /test] Response 45ms: {"code":"010000","traceId":"aedd8753-8320-4c66-a159-10bc329575b8"}
+2019-02-18 23:07:11,675 INFO 4000 [-/127.0.0.1/26887eb3-421b-4143-8c38-11f07a39e194/0ms GET /favicon.ico] Request: GET /favicon.ico undefined
+2019-02-18 23:07:11,694 ERROR 4000 [-/127.0.0.1/26887eb3-421b-4143-8c38-11f07a39e194/19ms GET /favicon.ico] nodejs.TypeError: Cannot read property '0' of undefined
+    at forbidIp (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\forbidip.js:6:32)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at errCatch (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\errCatch.js:5:13)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at response (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\response.js:5:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at request (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\request.js:8:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at uuid (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\uuid.js:8:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4000
+hostname: SC-201803310101
+
+2019-02-18 23:07:11,704 INFO 4000 [-/127.0.0.1/26887eb3-421b-4143-8c38-11f07a39e194/29ms GET /favicon.ico] Response 25ms: {"code":"010000","traceId":"26887eb3-421b-4143-8c38-11f07a39e194"}
+2019-03-02 17:39:34,779 INFO 13824 [-/127.0.0.1/3f2ccaa3-ec53-4f9e-85c8-495982ad8c9f/2ms GET /] Request: GET / undefined
+2019-03-02 17:39:34,829 INFO 13824 [-/127.0.0.1/3f2ccaa3-ec53-4f9e-85c8-495982ad8c9f/51ms GET /] Response 4ms: 你的ip已经被屏蔽
+2019-03-02 17:39:41,366 INFO 13824 [-/::1/801514e5-f651-4fc4-9e40-ea1343e5928d/0ms GET /] Request: GET / undefined
+2019-03-02 17:39:41,379 INFO 13824 [-/::1/801514e5-f651-4fc4-9e40-ea1343e5928d/13ms GET /] Response 11ms: hi, egg
+2019-03-02 17:39:42,237 INFO 13824 [-/::1/1cc276c2-e485-4b04-b3cc-226d98abd258/0ms GET /favicon.ico] Request: GET /favicon.ico undefined
+2019-03-02 17:52:51,760 INFO 17288 [-/127.0.0.1/a2f610d6-5249-431d-a67d-55cb2d00fa96/3ms GET /] Request: GET / undefined
+2019-03-02 17:52:51,792 INFO 17288 [-/127.0.0.1/a2f610d6-5249-431d-a67d-55cb2d00fa96/35ms GET /] Response 16ms: hi, egg
+2019-03-02 17:53:00,042 INFO 17288 [-/127.0.0.1/f19e9afd-1e5b-419f-9d8f-1b4e6c09a9e1/0ms GET /sequelize] Request: GET /sequelize undefined
+2019-03-02 17:53:00,079 INFO 17288 [-/127.0.0.1/f19e9afd-1e5b-419f-9d8f-1b4e6c09a9e1/37ms GET /sequelize] Response 35ms: <h1>404 Not Found</h1>
+2019-03-02 17:53:16,408 INFO 17288 [-/127.0.0.1/63d4d545-fedc-4088-bcea-1d97cccf40ff/1ms GET /sequelzie] Request: GET /sequelzie undefined
+2019-03-02 17:53:16,414 INFO 17288 [-/127.0.0.1/63d4d545-fedc-4088-bcea-1d97cccf40ff/7ms GET /sequelzie] Response 2ms: 听说我连接成功了。
+2019-03-02 18:04:15,344 INFO 20336 [-/127.0.0.1/18ccee94-375a-4409-8b8c-f81025be123e/4ms GET /] Request: GET / undefined
+2019-03-02 18:04:15,399 INFO 20336 [-/127.0.0.1/18ccee94-375a-4409-8b8c-f81025be123e/60ms GET /] Response 13ms: hi, egg
+2019-03-02 18:04:28,369 INFO 20336 [-/127.0.0.1/22855a7e-2ab4-4d9c-9a07-acceb5eeb23b/1ms GET /sequeleie] Request: GET /sequeleie undefined
+2019-03-02 18:04:28,380 INFO 20336 [-/127.0.0.1/22855a7e-2ab4-4d9c-9a07-acceb5eeb23b/12ms GET /sequeleie] Response 6ms: <h1>404 Not Found</h1>
+2019-03-02 18:04:34,324 INFO 20336 [-/127.0.0.1/639ac75c-cf21-40a0-b069-52e6af4eeec5/1ms GET /sequeleiz] Request: GET /sequeleiz undefined
+2019-03-02 18:04:34,325 INFO 20336 [-/127.0.0.1/639ac75c-cf21-40a0-b069-52e6af4eeec5/2ms GET /sequeleiz] Response 1ms: <h1>404 Not Found</h1>
+2019-03-02 18:04:49,644 INFO 20336 [-/127.0.0.1/3e24e543-c62e-46c3-a201-2827aa527c59/0ms GET /sequelize] Request: GET /sequelize undefined
+2019-03-02 18:04:49,649 INFO 20336 [-/127.0.0.1/3e24e543-c62e-46c3-a201-2827aa527c59/5ms GET /sequelize] Response 4ms: <h1>404 Not Found</h1>
+2019-03-02 18:04:52,410 INFO 20336 [-/127.0.0.1/6d261186-208e-4319-b328-0c53a663f8a7/0ms GET /sequelize] Request: GET /sequelize undefined
+2019-03-02 18:04:52,412 INFO 20336 [-/127.0.0.1/6d261186-208e-4319-b328-0c53a663f8a7/2ms GET /sequelize] Response 1ms: <h1>404 Not Found</h1>
+2019-03-02 18:23:03,839 INFO 5508 [-/127.0.0.1/44d71381-2187-4d38-9848-f08c362744f4/2ms GET /] Request: GET / undefined
+2019-03-02 18:23:03,857 INFO 5508 [-/127.0.0.1/44d71381-2187-4d38-9848-f08c362744f4/19ms GET /] Response 12ms: hi, egg
+2019-03-02 18:23:14,284 INFO 5508 [-/127.0.0.1/0ecbc686-5514-40c2-ac91-ea03d700f616/0ms GET /sequelize/createtable] Request: GET /sequelize/createtable undefined
+2019-03-02 18:23:14,300 INFO 5508 [-/127.0.0.1/0ecbc686-5514-40c2-ac91-ea03d700f616/16ms GET /sequelize/createtable] Response 15ms: <h1>404 Not Found</h1>
+2019-03-02 18:24:30,046 INFO 15024 [-/127.0.0.1/c04043ed-a472-4df1-8200-36b4a42a74aa/3ms GET /sequelize/createtable] Request: GET /sequelize/createtable undefined
+2019-03-02 18:24:30,061 INFO 15024 [-/127.0.0.1/c04043ed-a472-4df1-8200-36b4a42a74aa/18ms GET /sequelize/createtable] Response 14ms: User和infotmation表格创建成功
+2019-03-02 18:24:47,816 INFO 15024 [-/127.0.0.1/666d4023-01bc-4e80-9d66-b023279f7f9d/0ms GET /sequelize/insertUser] Request: GET /sequelize/insertUser undefined
+2019-03-02 18:24:47,825 INFO 15024 [-/127.0.0.1/666d4023-01bc-4e80-9d66-b023279f7f9d/9ms GET /sequelize/insertUser] Response 8ms: <h1>404 Not Found</h1>
+2019-03-02 18:26:13,630 INFO 15024 [-/127.0.0.1/5f7ce9e0-29a9-486b-bcff-c90182b8e594/1ms GET /sequelize/insertUser] Request: GET /sequelize/insertUser undefined
+2019-03-02 18:26:13,634 INFO 15024 [-/127.0.0.1/5f7ce9e0-29a9-486b-bcff-c90182b8e594/6ms GET /sequelize/insertUser] Response 2ms: <h1>404 Not Found</h1>
+2019-03-02 18:27:34,979 INFO 15024 [-/127.0.0.1/8e07342a-0251-4b0e-ab5a-ce582cf8a33f/0ms GET /sequelize/insertUser] Request: GET /sequelize/insertUser undefined
+2019-03-02 18:27:34,980 INFO 15024 [-/127.0.0.1/8e07342a-0251-4b0e-ab5a-ce582cf8a33f/1ms GET /sequelize/insertUser] Response 1ms: <h1>404 Not Found</h1>
+2019-03-02 18:27:38,929 INFO 15024 [-/127.0.0.1/c234b3f4-3ccb-4d8e-8f2b-59e0b2f63852/0ms GET /sequelize/insertUser] Request: GET /sequelize/insertUser undefined
+2019-03-02 18:27:38,930 INFO 15024 [-/127.0.0.1/c234b3f4-3ccb-4d8e-8f2b-59e0b2f63852/1ms GET /sequelize/insertUser] Response 0ms: <h1>404 Not Found</h1>
+2019-03-02 18:28:33,163 INFO 1336 [-/127.0.0.1/49131a38-124b-43e4-b7a4-2925d11f74a6/3ms GET /sequelize/insertUser] Request: GET /sequelize/insertUser undefined
+2019-03-02 18:28:33,470 INFO 1336 [-/127.0.0.1/49131a38-124b-43e4-b7a4-2925d11f74a6/310ms GET /sequelize/insertUser] Response 305ms: User成功插入数据
+2019-03-02 19:10:09,610 INFO 20320 [-/127.0.0.1/ef8c2888-42c0-4744-a7e2-5422410c123f/2ms GET /] Request: GET / undefined
+2019-03-02 19:10:09,664 INFO 20320 [-/127.0.0.1/ef8c2888-42c0-4744-a7e2-5422410c123f/56ms GET /] Response 18ms: hi, egg
+2019-03-02 19:11:37,256 INFO 6756 [-/127.0.0.1/735cfee8-588c-4777-bc27-8ab7cdc7b0ad/3ms GET /sequelize/insertinformation] Request: GET /sequelize/insertinformation undefined
+2019-03-02 19:11:37,531 INFO 6756 [-/127.0.0.1/735cfee8-588c-4777-bc27-8ab7cdc7b0ad/278ms GET /sequelize/insertinformation] Response 272ms: information成功插入数据
+2019-03-02 19:40:03,609 INFO 20228 [-/127.0.0.1/961ba3d6-ed66-4184-96d1-37dfc836732c/2ms GET /] Request: GET / undefined
+2019-03-02 19:40:03,704 INFO 20228 [-/127.0.0.1/961ba3d6-ed66-4184-96d1-37dfc836732c/97ms GET /] Response 14ms: hi, egg
+2019-03-02 19:40:17,794 INFO 20228 [-/127.0.0.1/34a592b6-80e7-4ab6-89f6-c5bfe219e72b/1ms GET /sequelize/query] Request: GET /sequelize/query undefined
+2019-03-02 19:40:17,888 INFO 20228 [-/127.0.0.1/34a592b6-80e7-4ab6-89f6-c5bfe219e72b/94ms GET /sequelize/query] Response 93ms: <h1>404 Not Found</h1>
+2019-03-02 19:41:13,534 INFO 6068 [-/127.0.0.1/6e759d38-944c-400f-9dd2-f3c2128d13f6/3ms GET /sequelize/query] Request: GET /sequelize/query undefined
+2019-03-02 19:41:13,620 INFO 6068 [-/127.0.0.1/6e759d38-944c-400f-9dd2-f3c2128d13f6/90ms GET /sequelize/query] Response 84ms: <h1>404 Not Found</h1>
+2019-03-02 19:41:53,026 INFO 16736 [-/127.0.0.1/efdceed5-a3f7-4ff8-987c-52a2b388d898/2ms GET /sequelize/query] Request: GET /sequelize/query undefined
+2019-03-02 19:41:53,113 INFO 16736 [-/127.0.0.1/efdceed5-a3f7-4ff8-987c-52a2b388d898/90ms GET /sequelize/query] Response 86ms: <h1>404 Not Found</h1>
+2019-03-02 19:42:24,406 INFO 9228 [-/127.0.0.1/63f54b1a-2840-4fc8-8afe-d79e4479b54a/1ms GET /sequelize/query] Request: GET /sequelize/query undefined
+2019-03-02 19:42:24,490 INFO 9228 [-/127.0.0.1/63f54b1a-2840-4fc8-8afe-d79e4479b54a/86ms GET /sequelize/query] Response 84ms: 查询结果为：[object SequelizeInstance:user]
+2019-03-02 19:43:02,869 INFO 18372 [-/127.0.0.1/c2168599-f144-4d21-935b-dd40756ca256/2ms GET /sequelize/query] Request: GET /sequelize/query undefined
+2019-03-02 19:43:02,955 INFO 18372 [-/127.0.0.1/c2168599-f144-4d21-935b-dd40756ca256/89ms GET /sequelize/query] Response 85ms: 查询结果为：undefined
+2019-03-02 19:43:12,021 INFO 17704 [-/127.0.0.1/cf438234-bf56-4386-9280-1dc77643c73f/3ms GET /sequelize/query] Request: GET /sequelize/query undefined
+2019-03-02 19:43:12,117 INFO 17704 [-/127.0.0.1/cf438234-bf56-4386-9280-1dc77643c73f/100ms GET /sequelize/query] Response 95ms: 查询结果为：[object SequelizeInstance:user]
+2019-03-02 19:43:25,114 INFO 16608 [-/127.0.0.1/35ff766a-638d-4583-a0bc-c3a2dc4e9ecf/3ms GET /sequelize/query] Request: GET /sequelize/query undefined
+2019-03-02 19:43:25,197 INFO 16608 [-/127.0.0.1/35ff766a-638d-4583-a0bc-c3a2dc4e9ecf/87ms GET /sequelize/query] Response 82ms: 查询结果为：undefined
+2019-03-02 19:44:03,053 INFO 7588 [-/127.0.0.1/1e7ba895-2e0c-4723-92a3-134fc55697a7/3ms GET /sequelize/updata] Request: GET /sequelize/updata undefined
+2019-03-02 19:44:03,070 INFO 7588 [-/127.0.0.1/1e7ba895-2e0c-4723-92a3-134fc55697a7/20ms GET /sequelize/updata] Response 16ms: <h1>404 Not Found</h1>
+2019-03-02 19:44:48,827 INFO 8460 [-/127.0.0.1/3ce08113-835a-4c37-9ba7-03cb414b8d02/3ms GET /sequelize/updata] Request: GET /sequelize/updata undefined
+2019-03-02 19:44:48,843 INFO 8460 [-/127.0.0.1/3ce08113-835a-4c37-9ba7-03cb414b8d02/20ms GET /sequelize/updata] Response 13ms: <h1>404 Not Found</h1>
+2019-03-02 19:48:11,131 INFO 8460 [-/127.0.0.1/73b5e554-0dc5-4b8d-9bbf-e35e53025db2/0ms GET /sequelize/updata] Request: GET /sequelize/updata undefined
+2019-03-02 19:48:11,134 INFO 8460 [-/127.0.0.1/73b5e554-0dc5-4b8d-9bbf-e35e53025db2/3ms GET /sequelize/updata] Response 2ms: <h1>404 Not Found</h1>
+2019-03-02 19:48:20,065 INFO 8460 [-/127.0.0.1/e2f910b1-da8b-4256-a9d6-6e9e71dacb20/0ms GET /sequelize/query] Request: GET /sequelize/query undefined
+2019-03-02 19:48:20,160 INFO 8460 [-/127.0.0.1/e2f910b1-da8b-4256-a9d6-6e9e71dacb20/95ms GET /sequelize/query] Response 94ms: 查询结果为：[object SequelizeInstance:user]
+2019-03-02 19:48:29,952 INFO 8460 [-/127.0.0.1/0eae8f8f-1144-4340-901a-4b623e95e5a3/0ms GET /sequelize/updata] Request: GET /sequelize/updata undefined
+2019-03-02 19:48:29,953 INFO 8460 [-/127.0.0.1/0eae8f8f-1144-4340-901a-4b623e95e5a3/1ms GET /sequelize/updata] Response 0ms: <h1>404 Not Found</h1>
+2019-03-02 19:50:01,586 INFO 4728 [-/127.0.0.1/f09d9f2d-25eb-460e-a72e-52264bddb656/2ms GET /] Request: GET / undefined
+2019-03-02 19:50:01,630 INFO 4728 [-/127.0.0.1/f09d9f2d-25eb-460e-a72e-52264bddb656/46ms GET /] Response 15ms: hi, egg
+2019-03-02 19:50:20,208 INFO 4728 [-/127.0.0.1/02373ef5-69f8-44e2-835e-623acfd0b2c5/0ms GET /sequelize/updata] Request: GET /sequelize/updata undefined
+2019-03-02 19:50:20,217 INFO 4728 [-/127.0.0.1/02373ef5-69f8-44e2-835e-623acfd0b2c5/9ms GET /sequelize/updata] Response 8ms: <h1>404 Not Found</h1>
+2019-03-02 19:51:17,249 INFO 2872 [-/127.0.0.1/943abd9a-a6c4-4095-8f53-e9bce6355005/4ms GET /sequelize/delete] Request: GET /sequelize/delete undefined
+2019-03-02 19:51:17,264 INFO 2872 [-/127.0.0.1/943abd9a-a6c4-4095-8f53-e9bce6355005/20ms GET /sequelize/delete] Response 13ms: <h1>404 Not Found</h1>
+2019-03-02 19:53:36,418 INFO 10992 [-/127.0.0.1/0b9f3020-014a-4d83-989c-c524bed43f87/2ms GET /] Request: GET / undefined
+2019-03-02 19:53:36,477 INFO 10992 [-/127.0.0.1/0b9f3020-014a-4d83-989c-c524bed43f87/61ms GET /] Response 20ms: hi, egg
+2019-03-02 19:53:43,135 INFO 10992 [-/127.0.0.1/c797fca1-a0ea-4e0d-af37-e44c19d4f7ed/0ms GET /sequelize/query] Request: GET /sequelize/query undefined
+2019-03-02 19:53:43,224 INFO 10992 [-/127.0.0.1/c797fca1-a0ea-4e0d-af37-e44c19d4f7ed/89ms GET /sequelize/query] Response 88ms: 查询结果为：[object SequelizeInstance:user]
+2019-03-02 19:53:51,769 INFO 10992 [-/127.0.0.1/a2d4ad0e-dff3-49ca-9b09-ebf266c8511c/0ms GET /sequelize/upata] Request: GET /sequelize/upata undefined
+2019-03-02 19:53:51,775 INFO 10992 [-/127.0.0.1/a2d4ad0e-dff3-49ca-9b09-ebf266c8511c/7ms GET /sequelize/upata] Response 6ms: <h1>404 Not Found</h1>
+2019-03-02 19:53:57,142 INFO 10992 [-/127.0.0.1/0b34c8a0-8527-4418-939b-4f4a143edf0f/0ms GET /sequelize/updata] Request: GET /sequelize/updata undefined
+2019-03-02 19:53:57,149 INFO 10992 [-/127.0.0.1/0b34c8a0-8527-4418-939b-4f4a143edf0f/7ms GET /sequelize/updata] Response 1ms: <h1>404 Not Found</h1>
+2019-03-02 19:54:04,104 INFO 10992 [-/127.0.0.1/6c368add-1a50-4be6-8408-0a4c26a47d2c/0ms GET /sequelize/updata] Request: GET /sequelize/updata undefined
+2019-03-02 19:54:04,106 INFO 10992 [-/127.0.0.1/6c368add-1a50-4be6-8408-0a4c26a47d2c/2ms GET /sequelize/updata] Response 1ms: <h1>404 Not Found</h1>
+2019-03-02 19:54:34,764 INFO 16488 [-/127.0.0.1/2c9ce7b8-b03f-4ba5-b21e-48c8f4737076/3ms GET /sequelize/updata] Request: GET /sequelize/updata undefined
+2019-03-02 19:54:34,784 INFO 16488 [-/127.0.0.1/2c9ce7b8-b03f-4ba5-b21e-48c8f4737076/24ms GET /sequelize/updata] Response 18ms: <h1>404 Not Found</h1>
+2019-03-02 19:55:44,704 INFO 14948 [-/127.0.0.1/2c77eaf0-5bc5-417c-83c5-91d29f33d48b/3ms GET /sequelize/update] Request: GET /sequelize/update undefined
+2019-03-02 19:55:44,729 INFO 14948 [-/127.0.0.1/2c77eaf0-5bc5-417c-83c5-91d29f33d48b/29ms GET /sequelize/update] Response 24ms: <h1>404 Not Found</h1>
+2019-03-02 19:56:36,611 INFO 20300 [-/127.0.0.1/5055f8cd-e034-4d1b-b95c-b053ffc01ea2/3ms GET /sequelize/update] Request: GET /sequelize/update undefined
+2019-03-02 19:56:36,919 INFO 20300 [-/127.0.0.1/5055f8cd-e034-4d1b-b95c-b053ffc01ea2/312ms GET /sequelize/update] Response 307ms: 更新成功
+2019-03-02 19:56:54,515 INFO 20300 [-/127.0.0.1/b256f4c5-ac68-4744-8193-8d4df78552ec/0ms GET /sequelize/delete] Request: GET /sequelize/delete undefined
+2019-03-02 19:56:54,779 INFO 20300 [-/127.0.0.1/b256f4c5-ac68-4744-8193-8d4df78552ec/264ms GET /sequelize/delete] Response 263ms: 删除成功
+2019-03-02 19:57:24,423 INFO 20300 [-/127.0.0.1/a364b435-35c8-4352-b8df-086276dafd87/0ms GET /sequelize/insertinformation] Request: GET /sequelize/insertinformation undefined
+2019-03-02 19:57:24,579 INFO 20300 [-/127.0.0.1/a364b435-35c8-4352-b8df-086276dafd87/157ms GET /sequelize/insertinformation] Response 156ms: information成功插入数据
+2019-03-03 14:58:59,375 INFO 5324 [-/127.0.0.1/d1db1127-f309-4642-9a3e-a6c5acef9329/3ms GET /] Request: GET / undefined
+2019-03-03 14:58:59,434 INFO 5324 [-/127.0.0.1/d1db1127-f309-4642-9a3e-a6c5acef9329/63ms GET /] Response 20ms: hi, egg
+2019-03-03 14:59:45,779 INFO 5324 [-/127.0.0.1/807322b6-309e-44aa-bc70-3a4e7e466789/0ms GET /sequelize/insertUser?account=xiaomai&password=jbl1214454wen] Request: GET /sequelize/insertUser?account=xiaomai&password=jbl1214454wen undefined
+2019-03-03 14:59:46,145 INFO 5324 [-/127.0.0.1/807322b6-309e-44aa-bc70-3a4e7e466789/366ms GET /sequelize/insertUser?account=xiaomai&password=jbl1214454wen] Response 365ms: User成功插入数据
+2019-03-03 15:04:29,033 INFO 13748 [-/127.0.0.1/0b6f919e-2b8e-4fe9-8e89-355968223418/3ms GET /sequelize/insertinformation?name=maijianwen$sex=male&User_id=2] Request: GET /sequelize/insertinformation?name=maijianwen$sex=male&User_id=2 undefined
+2019-03-03 15:04:29,070 INFO 13748 [-/127.0.0.1/0b6f919e-2b8e-4fe9-8e89-355968223418/41ms GET /sequelize/insertinformation?name=maijianwen$sex=male&User_id=2] Response 35ms: <h1>404 Not Found</h1>
+2019-03-03 15:05:24,789 INFO 13748 [-/127.0.0.1/f6f022cb-5222-4ff5-ba90-a2427a00a4e6/0ms GET /sequelize/insertinformation?name=maijianwen&sex=male&User_id=2] Request: GET /sequelize/insertinformation?name=maijianwen&sex=male&User_id=2 undefined
+2019-03-03 15:05:25,073 INFO 13748 [-/127.0.0.1/f6f022cb-5222-4ff5-ba90-a2427a00a4e6/284ms GET /sequelize/insertinformation?name=maijianwen&sex=male&User_id=2] Response 283ms: information成功插入数据
+2019-03-03 15:09:13,379 INFO 11336 [-/127.0.0.1/29195178-741b-499f-8a51-d5115ed2d7b2/1ms GET /sequelize/delete?name=maijianwen] Request: GET /sequelize/delete?name=maijianwen undefined
+2019-03-03 15:09:13,413 INFO 11336 [-/127.0.0.1/29195178-741b-499f-8a51-d5115ed2d7b2/35ms GET /sequelize/delete?name=maijianwen] Response 33ms: <h1>404 Not Found</h1>
+2019-03-03 15:09:31,420 INFO 956 [-/127.0.0.1/77be1fb3-7e0e-425e-80de-0ccc23acdb46/3ms GET /sequelize/delete?name=maijianwen] Request: GET /sequelize/delete?name=maijianwen undefined
+2019-03-03 15:09:31,699 INFO 956 [-/127.0.0.1/77be1fb3-7e0e-425e-80de-0ccc23acdb46/282ms GET /sequelize/delete?name=maijianwen] Response 278ms: 删除成功
+2019-03-03 15:14:41,623 INFO 5600 [-/127.0.0.1/631dd0e8-7011-459d-8e8f-2892bbf3dac4/2ms GET /sequelize/delete?db=%27User] Request: GET /sequelize/delete?db=%27User undefined
+2019-03-03 15:14:41,746 INFO 5600 [-/127.0.0.1/631dd0e8-7011-459d-8e8f-2892bbf3dac4/126ms GET /sequelize/delete?db=%27User] Response 123ms: <h1>404 Not Found</h1>
+2019-03-03 15:15:07,934 INFO 5600 [-/127.0.0.1/1ab4db08-803c-4acf-8d65-cf7471f3db6c/0ms GET /sequelize/delete?db=%27User%E2%80%99&name=%E2%80%98maijianwen%E2%80%99] Request: GET /sequelize/delete?db=%27User%E2%80%99&name=%E2%80%98maijianwen%E2%80%99 undefined
+2019-03-03 15:15:07,961 INFO 5600 [-/127.0.0.1/1ab4db08-803c-4acf-8d65-cf7471f3db6c/27ms GET /sequelize/delete?db=%27User%E2%80%99&name=%E2%80%98maijianwen%E2%80%99] Response 26ms: <h1>404 Not Found</h1>
+2019-03-03 15:16:14,073 INFO 15820 [-/127.0.0.1/ca374b77-2f6e-4e2e-8c77-802330f2004e/1ms GET /sequelize/delete?account=%27xiaomai%27] Request: GET /sequelize/delete?account=%27xiaomai%27 undefined
+2019-03-03 15:16:14,211 INFO 15820 [-/127.0.0.1/ca374b77-2f6e-4e2e-8c77-802330f2004e/140ms GET /sequelize/delete?account=%27xiaomai%27] Response 138ms: <h1>404 Not Found</h1>
+2019-03-03 15:17:18,378 INFO 12112 [-/127.0.0.1/17a50866-ff95-4a58-8104-45d2286602e3/3ms GET /sequelize/delete?db=%27User%27&account=%27xiaomai%27] Request: GET /sequelize/delete?db=%27User%27&account=%27xiaomai%27 undefined
+2019-03-03 15:17:18,478 INFO 12112 [-/127.0.0.1/17a50866-ff95-4a58-8104-45d2286602e3/104ms GET /sequelize/delete?db=%27User%27&account=%27xiaomai%27] Response 100ms: 删除成功
+2019-03-03 15:18:15,485 INFO 12112 [-/127.0.0.1/c48c369d-e0df-4de1-bcef-355611eca327/0ms GET /sequelize/delete?db=User&account=xiaomai] Request: GET /sequelize/delete?db=User&account=xiaomai undefined
+2019-03-03 15:18:15,705 INFO 12112 [-/127.0.0.1/c48c369d-e0df-4de1-bcef-355611eca327/220ms GET /sequelize/delete?db=User&account=xiaomai] Response 216ms: 删除成功
+2019-03-03 15:26:07,459 INFO 14468 [-/127.0.0.1/21ec8553-681c-449a-84e9-2f8db8885094/1ms GET /sequelize/query] Request: GET /sequelize/query undefined
+2019-03-03 15:26:07,545 INFO 14468 [-/127.0.0.1/21ec8553-681c-449a-84e9-2f8db8885094/87ms GET /sequelize/query] Response 85ms: 查询结果为：
+2019-03-03 15:26:37,697 INFO 14468 [-/127.0.0.1/3b27ecd6-506d-439c-8936-8cf6b67558ce/0ms GET /sequelize/query?db=%27User%27&account=123] Request: GET /sequelize/query?db=%27User%27&account=123 undefined
+2019-03-03 15:26:37,710 INFO 14468 [-/127.0.0.1/3b27ecd6-506d-439c-8936-8cf6b67558ce/14ms GET /sequelize/query?db=%27User%27&account=123] Response 13ms: 查询结果为：
+2019-03-03 15:28:42,538 INFO 14468 [-/127.0.0.1/8a0ff244-a3ec-4f7d-b118-9335b25a9cdb/0ms GET /sequelize/query?db=User&account=123] Request: GET /sequelize/query?db=User&account=123 undefined
+2019-03-03 15:28:42,565 INFO 14468 [-/127.0.0.1/8a0ff244-a3ec-4f7d-b118-9335b25a9cdb/27ms GET /sequelize/query?db=User&account=123] Response 27ms: 查询结果为：[object SequelizeInstance:user]
+2019-03-03 15:49:31,482 INFO 19652 [-/127.0.0.1/bef29217-3096-4f89-b777-3ab581450c46/4ms GET /sequelize/update?table=User&password=wochangshiyixia&account=mokaien] Request: GET /sequelize/update?table=User&password=wochangshiyixia&account=mokaien undefined
+2019-03-03 15:49:31,587 INFO 19652 [-/127.0.0.1/bef29217-3096-4f89-b777-3ab581450c46/109ms GET /sequelize/update?table=User&password=wochangshiyixia&account=mokaien] Response 103ms: 更新成功
+2019-03-03 15:50:35,344 INFO 19652 [-/127.0.0.1/f164666d-dd52-455e-bc35-88e2a5d5a559/0ms GET /sequelize/update?table=User&password=test&account=123] Request: GET /sequelize/update?table=User&password=test&account=123 undefined
+2019-03-03 15:50:35,517 INFO 19652 [-/127.0.0.1/f164666d-dd52-455e-bc35-88e2a5d5a559/173ms GET /sequelize/update?table=User&password=test&account=123] Response 172ms: 更新成功
+2019-03-03 15:51:17,913 INFO 19652 [-/127.0.0.1/8c18424b-49cf-46e6-abf8-cf2763bd88b0/0ms GET /sequelize/update?table=information&name=xiaoming&sex=female] Request: GET /sequelize/update?table=information&name=xiaoming&sex=female undefined
+2019-03-03 15:51:17,929 INFO 19652 [-/127.0.0.1/8c18424b-49cf-46e6-abf8-cf2763bd88b0/16ms GET /sequelize/update?table=information&name=xiaoming&sex=female] Response 16ms: <h1>404 Not Found</h1>
+2019-03-03 15:51:51,408 INFO 17468 [-/127.0.0.1/c1d91212-d218-46fa-94a3-ddc50ebb74ca/3ms GET /sequelize/update?table=information&name=xiaoming&sex=female] Request: GET /sequelize/update?table=information&name=xiaoming&sex=female undefined
+2019-03-03 15:51:51,691 INFO 17468 [-/127.0.0.1/c1d91212-d218-46fa-94a3-ddc50ebb74ca/287ms GET /sequelize/update?table=information&name=xiaoming&sex=female] Response 282ms: 更新成功
+2019-03-03 15:52:57,905 INFO 17468 [-/127.0.0.1/4f61343b-a30f-4865-943e-9618b31144cd/0ms GET /sequelize/update?table=double&name=xiaoming&sex=male&account=123&password=test2] Request: GET /sequelize/update?table=double&name=xiaoming&sex=male&account=123&password=test2 undefined
+2019-03-03 15:52:58,027 INFO 17468 [-/127.0.0.1/4f61343b-a30f-4865-943e-9618b31144cd/122ms GET /sequelize/update?table=double&name=xiaoming&sex=male&account=123&password=test2] Response 121ms: <h1>404 Not Found</h1>
+2019-03-03 15:53:14,254 INFO 21200 [-/127.0.0.1/6f603875-5ff7-4db1-8cb7-8454ee6541ef/3ms GET /sequelize/update?table=double&name=xiaoming&sex=male&account=123&password=test2] Request: GET /sequelize/update?table=double&name=xiaoming&sex=male&account=123&password=test2 undefined
+2019-03-03 15:53:14,467 INFO 21200 [-/127.0.0.1/6f603875-5ff7-4db1-8cb7-8454ee6541ef/216ms GET /sequelize/update?table=double&name=xiaoming&sex=male&account=123&password=test2] Response 210ms: 更新成功
+2019-03-03 15:54:30,061 INFO 3620 [-/127.0.0.1/17665871-48c1-4ab5-a64e-32af7c33b5fe/3ms GET /sequelize/update?table=double&name=xiaoming&sex=male&account=123&password=test3] Request: GET /sequelize/update?table=double&name=xiaoming&sex=male&account=123&password=test3 undefined
+2019-03-03 15:54:30,282 INFO 3620 [-/127.0.0.1/17665871-48c1-4ab5-a64e-32af7c33b5fe/225ms GET /sequelize/update?table=double&name=xiaoming&sex=male&account=123&password=test3] Response 220ms: 更新成功
+2019-03-03 15:57:00,446 INFO 3620 [-/127.0.0.1/62b6dfc9-41cd-4013-aa45-42fefadbee51/0ms GET /sequelize/update?table=double&name=xiaoming&account=123&password=changshi&sex=female] Request: GET /sequelize/update?table=double&name=xiaoming&account=123&password=changshi&sex=female undefined
+2019-03-03 15:57:02,587 INFO 3620 [-/127.0.0.1/6f67df67-423e-4c46-a67e-7820849bb719/0ms GET /sequelize/update?table=double&name=xiaoming&account=123&password=changshi&sex=female] Request: GET /sequelize/update?table=double&name=xiaoming&account=123&password=changshi&sex=female undefined
+2019-03-03 15:57:51,728 INFO 3620 [-/127.0.0.1/62b6dfc9-41cd-4013-aa45-42fefadbee51/51282ms GET /sequelize/update?table=double&name=xiaoming&account=123&password=changshi&sex=female] Response 51281ms: <h1>404 Not Found</h1>
+2019-03-03 15:57:53,722 INFO 3620 [-/127.0.0.1/6f67df67-423e-4c46-a67e-7820849bb719/51135ms GET /sequelize/update?table=double&name=xiaoming&account=123&password=changshi&sex=female] Response 51135ms: <h1>404 Not Found</h1>
+2019-03-03 15:58:47,492 INFO 3620 [-/127.0.0.1/fda501e9-878d-473f-b2d8-2471ec7762a0/0ms GET /sequelize/update?table=double&name=xiaoming&account=123&password=changshi&sex=female] Request: GET /sequelize/update?table=double&name=xiaoming&account=123&password=changshi&sex=female undefined
+2019-03-03 15:58:48,930 INFO 12916 [-/127.0.0.1/1a86cb91-fed5-4bab-944f-3f6fafd68502/2ms GET /sequelize/update?table=double&name=xiaoming&account=123&password=changshi&sex=female] Request: GET /sequelize/update?table=double&name=xiaoming&account=123&password=changshi&sex=female undefined
+2019-03-03 15:58:49,263 INFO 12916 [-/127.0.0.1/1a86cb91-fed5-4bab-944f-3f6fafd68502/335ms GET /sequelize/update?table=double&name=xiaoming&account=123&password=changshi&sex=female] Response 331ms: 更新成功
+2019-03-03 16:14:04,255 INFO 9384 [-/127.0.0.1/1645ed52-5c25-4773-ac75-0529150ec9f2/4ms GET /sequelize/multilistQuery?name=xiaoming] Request: GET /sequelize/multilistQuery?name=xiaoming undefined
+2019-03-03 16:14:04,372 INFO 9384 [-/127.0.0.1/1645ed52-5c25-4773-ac75-0529150ec9f2/121ms GET /sequelize/multilistQuery?name=xiaoming] Response 115ms: <h1>404 Not Found</h1>
+2019-03-03 16:47:39,852 INFO 13748 [-/127.0.0.1/2bf4316d-ff22-4f31-a7ec-18aa88fcc216/2ms GET /] Request: GET / undefined
+2019-03-03 16:47:39,869 INFO 13748 [-/127.0.0.1/2bf4316d-ff22-4f31-a7ec-18aa88fcc216/20ms GET /] Response 15ms: hi, egg

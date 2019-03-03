@@ -2,7 +2,7 @@
 const path = require('path');
 module.exports = app => {
   // 插入中间件
-  app.config.coreMiddleware.splice(0, 0, 'forbidip', 'uuid', 'request', 'response', 'errCatch');
+  app.config.coreMiddleware.splice(0, 0, 'uuid', 'request', 'response', 'errCatch');
 
   // 未捕获的promise错误
   process.on('unhandledRejection', reason => {

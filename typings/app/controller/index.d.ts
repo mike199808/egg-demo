@@ -3,11 +3,11 @@
 
 import 'egg';
 import ExportHome = require('../../../app/controller/home');
-import ExportTest = require('../../../app/controller/test');
+import ExportSequelize = require('../../../app/controller/sequelize');
 
 declare module 'egg' {
   interface IController {
     home: ExportHome;
-    test: ExportTest;
+    sequelize: ExportSequelize;
   }
 }

@@ -66,3 +66,170 @@ hostname: SC-201803310101
 2019-02-18 19:59:47,647 ERROR 9708 [-/127.0.0.1/a935b12f-d4d8-4b28-ae17-119217ed27e7/43ms GET /] fashengcuowu1
 2019-02-18 20:05:49,343 ERROR 7200 [-/127.0.0.1/ce1dde14-c40e-47e9-b631-2a4f1bd4955a/39ms GET /] fashengcuowu1
 2019-02-18 20:05:50,420 ERROR 7200 [-/127.0.0.1/a0d9c501-63ba-4e36-bb75-b92767a23480/19ms GET /] fashengcuowu1
+2019-02-18 21:04:27,338 ERROR 16488 [-/::1/bf3fe979-0552-442e-8861-58f1ffe1804e/44ms GET /] 我是错误码测试
+2019-02-18 22:56:23,158 ERROR 17252 [-/::1/61a0b16d-bfda-4884-8424-4b225ee4baf0/49ms GET /] 我是错误码测试
+2019-02-18 23:04:37,190 ERROR 17524 [-/127.0.0.1/-/5ms GET /] nodejs.TypeError: Cannot read property '0' of undefined
+    at forbidIp (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\forbidip.js:6:32)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:34:12
+    at Application.handleRequest (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\lib\application.js:151:12)
+    at Application.handleRequest (C:\Users\Administrator\Desktop\eggtest\test\node_modules\egg\lib\application.js:201:11)
+    at Server.handleRequest (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\lib\application.js:133:19)
+    at Server.emit (events.js:182:13)
+    at parserOnIncoming (_http_server.js:652:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:109:17)
+
+pid: 17524
+hostname: SC-201803310101
+
+2019-02-18 23:04:38,275 ERROR 17524 [-/127.0.0.1/-/0ms GET /favicon.ico] nodejs.TypeError: Cannot read property '0' of undefined
+    at forbidIp (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\forbidip.js:6:32)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:34:12
+    at Application.handleRequest (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\lib\application.js:151:12)
+    at Application.handleRequest (C:\Users\Administrator\Desktop\eggtest\test\node_modules\egg\lib\application.js:201:11)
+    at Server.handleRequest (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\lib\application.js:133:19)
+    at Server.emit (events.js:182:13)
+    at parserOnIncoming (_http_server.js:652:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:109:17)
+
+pid: 17524
+hostname: SC-201803310101
+
+2019-02-18 23:05:37,109 ERROR 4052 [-/127.0.0.1/-/6ms GET /] nodejs.TypeError: Cannot read property '0' of undefined
+    at forbidIp (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\forbidip.js:6:32)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:34:12
+    at Application.handleRequest (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\lib\application.js:151:12)
+    at Application.handleRequest (C:\Users\Administrator\Desktop\eggtest\test\node_modules\egg\lib\application.js:201:11)
+    at Server.handleRequest (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\lib\application.js:133:19)
+    at Server.emit (events.js:182:13)
+    at parserOnIncoming (_http_server.js:652:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:109:17)
+
+pid: 4052
+hostname: SC-201803310101
+
+2019-02-18 23:05:38,153 ERROR 4052 [-/127.0.0.1/-/0ms GET /favicon.ico] nodejs.TypeError: Cannot read property '0' of undefined
+    at forbidIp (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\forbidip.js:6:32)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:34:12
+    at Application.handleRequest (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\lib\application.js:151:12)
+    at Application.handleRequest (C:\Users\Administrator\Desktop\eggtest\test\node_modules\egg\lib\application.js:201:11)
+    at Server.handleRequest (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\lib\application.js:133:19)
+    at Server.emit (events.js:182:13)
+    at parserOnIncoming (_http_server.js:652:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:109:17)
+
+pid: 4052
+hostname: SC-201803310101
+
+2019-02-18 23:06:41,068 ERROR 4000 [-/127.0.0.1/424956b3-d695-482b-ab78-ba07781d9033/66ms GET /] nodejs.TypeError: Cannot read property '0' of undefined
+    at forbidIp (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\forbidip.js:6:32)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at errCatch (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\errCatch.js:5:13)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at response (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\response.js:5:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at request (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\request.js:8:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at uuid (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\uuid.js:8:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4000
+hostname: SC-201803310101
+
+2019-02-18 23:06:41,450 ERROR 4000 [-/127.0.0.1/2b8893f0-3742-47d9-aa88-e1043b205e0f/19ms GET /favicon.ico] nodejs.TypeError: Cannot read property '0' of undefined
+    at forbidIp (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\forbidip.js:6:32)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at errCatch (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\errCatch.js:5:13)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at response (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\response.js:5:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at request (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\request.js:8:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at uuid (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\uuid.js:8:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4000
+hostname: SC-201803310101
+
+2019-02-18 23:07:05,121 ERROR 4000 [-/127.0.0.1/cb9b7c92-c30c-42d2-b43e-827e9e905881/15ms GET /] nodejs.TypeError: Cannot read property '0' of undefined
+    at forbidIp (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\forbidip.js:6:32)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at errCatch (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\errCatch.js:5:13)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at response (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\response.js:5:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at request (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\request.js:8:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at uuid (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\uuid.js:8:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4000
+hostname: SC-201803310101
+
+2019-02-18 23:07:05,216 ERROR 4000 [-/127.0.0.1/5d57d051-296c-45e2-a34a-a07e0b2267fb/13ms GET /favicon.ico] nodejs.TypeError: Cannot read property '0' of undefined
+    at forbidIp (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\forbidip.js:6:32)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at errCatch (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\errCatch.js:5:13)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at response (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\response.js:5:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at request (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\request.js:8:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at uuid (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\uuid.js:8:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4000
+hostname: SC-201803310101
+
+2019-02-18 23:07:10,400 ERROR 4000 [-/127.0.0.1/aedd8753-8320-4c66-a159-10bc329575b8/36ms GET /test] nodejs.TypeError: Cannot read property '0' of undefined
+    at forbidIp (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\forbidip.js:6:32)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at errCatch (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\errCatch.js:5:13)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at response (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\response.js:5:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at request (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\request.js:8:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at uuid (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\uuid.js:8:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4000
+hostname: SC-201803310101
+
+2019-02-18 23:07:11,694 ERROR 4000 [-/127.0.0.1/26887eb3-421b-4143-8c38-11f07a39e194/19ms GET /favicon.ico] nodejs.TypeError: Cannot read property '0' of undefined
+    at forbidIp (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\forbidip.js:6:32)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at errCatch (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\errCatch.js:5:13)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at response (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\response.js:5:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at request (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\request.js:8:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at uuid (C:\Users\Administrator\Desktop\eggtest\test\app\middleware\uuid.js:8:11)
+    at dispatch (C:\Users\Administrator\Desktop\eggtest\test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 4000
+hostname: SC-201803310101
+
+2019-03-02 19:04:06,767 ERROR 21204 nodejs.ClusterClientNoResponseError: client no response in 1754345ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (C:\Users\Administrator\Desktop\eggtest\test\node_modules\cluster-client\lib\leader.js:74:23)
+    at ontimeout (timers.js:424:11)
+    at tryOnTimeout (timers.js:288:5)
+    at listOnTimeout (timers.js:251:5)
+    at Timer.processTimers (timers.js:211:10)
+name: "ClusterClientNoResponseError"
+pid: 21204
+hostname: SC-201803310101
+
+2019-03-03 15:37:04,639 ERROR 9600 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onread (net.js:660:25)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 9600
+hostname: SC-201803310101
+

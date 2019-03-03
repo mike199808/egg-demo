@@ -9,7 +9,9 @@
   "dependencies": {
     "egg": "^2.15.1",
     "egg-scripts": "^2.11.0",
-    "egg-syllabus-framework": "^1.0.16"
+    "egg-syllabus-framework": "^1.0.28",
+    "mysql2": "^1.6.5",
+    "sequelize": "^4.42.1"
   },
   "devDependencies": {
     "autod": "^3.0.1",

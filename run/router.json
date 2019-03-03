@@ -19,8 +19,86 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/test",
-    "regexp": "/^\\/test(?:\\/(?=$))?$/",
+    "path": "/sequelize/createtable",
+    "regexp": "/^\\/sequelize\\/createtable(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sequelize/insertUser",
+    "regexp": "/^\\/sequelize\\/insertUser(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sequelize/insertinformation",
+    "regexp": "/^\\/sequelize\\/insertinformation(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sequelize/query",
+    "regexp": "/^\\/sequelize\\/query(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sequelize/delete",
+    "regexp": "/^\\/sequelize\\/delete(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sequelize/update",
+    "regexp": "/^\\/sequelize\\/update(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/sequelize/multilistQuery",
+    "regexp": "/^\\/sequelize\\/multilistQuery(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

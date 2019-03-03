@@ -16,17 +16,7 @@
       "domainWhiteList": [],
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
-      "csrf": {
-        "enable": true,
-        "useSession": false,
-        "ignoreJSON": false,
-        "cookieName": "csrfToken",
-        "sessionName": "csrfToken",
-        "headerName": "x-csrf-token",
-        "bodyName": "_csrf",
-        "queryName": "_csrf",
-        "matching": "<Function anonymous>"
-      },
+      "csrf": false,
       "xframe": {
         "enable": true,
         "value": "SAMEORIGIN",
@@ -86,25 +76,25 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg-session\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg-security\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg-jsonp\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg-onerror\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg-i18n\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg-watcher\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg-schedule\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg-multipart\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg-development\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg-logrotator\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg-static\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg-view\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\task\\task\\config\\locales"
+        "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-session\\config\\locales",
+        "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-security\\config\\locales",
+        "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-jsonp\\config\\locales",
+        "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-onerror\\config\\locales",
+        "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-i18n\\config\\locales",
+        "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-watcher\\config\\locales",
+        "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-schedule\\config\\locales",
+        "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-multipart\\config\\locales",
+        "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-development\\config\\locales",
+        "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-logrotator\\config\\locales",
+        "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-static\\config\\locales",
+        "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-view\\config\\locales",
+        "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg\\config\\locales",
+        "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\config\\locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -114,14 +104,14 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "C:\\Users\\Administrator\\Desktop\\task\\task\\logs\\task\\egg-schedule.log"
+        "file": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\logs\\test\\egg-schedule.log"
       }
     },
     "schedule": {
@@ -138,7 +128,7 @@
       "files": 10,
       "fileExtensions": [],
       "whitelist": null,
-      "tmpdir": "C:\\Users\\ADMINI\\x7e1\\AppData\\Local\\Temp\\egg-multipart-tmp\\task",
+      "tmpdir": "C:\\Users\\ADMINI\\x7e1\\AppData\\Local\\Temp\\egg-multipart-tmp\\test",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
       }
@@ -161,52 +151,57 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "C:\\Users\\Administrator\\Desktop\\task\\task\\app\\public",
+      "dir": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
-      "maxFiles": 1000,
-      "files": "<LRU>"
+      "maxFiles": 1000
     },
     "view": {
-      "root": "C:\\Users\\Administrator\\Desktop\\task\\task\\app\\view",
+      "root": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {}
     },
     "env": "local",
-    "name": "task",
+    "name": "test",
     "keys": "<String len: 23>",
     "proxy": false,
     "protocolHeaders": "x-forwarded-proto",
     "ipHeaders": "x-forwarded-for",
     "hostHeaders": "",
     "pkg": {
-      "name": "task",
+      "name": "test",
       "version": "1.0.0",
       "description": "",
       "private": true,
+      "egg": {
+        "declarations": true
+      },
       "dependencies": {
-        "egg": "^2.2.1",
-        "egg-scripts": "^2.5.0"
+        "egg": "^2.15.1",
+        "egg-scripts": "^2.11.0",
+        "egg-syllabus-framework": "^1.0.28",
+        "mysql2": "^1.6.5",
+        "sequelize": "^4.42.1"
       },
       "devDependencies": {
         "autod": "^3.0.1",
-        "autod-egg": "^1.0.0",
-        "egg-bin": "^4.3.5",
-        "egg-ci": "^1.8.0",
-        "egg-mock": "^3.14.0",
-        "eslint": "^4.11.0",
-        "eslint-config-egg": "^6.0.0",
+        "autod-egg": "^1.1.0",
+        "egg-bin": "^4.11.0",
+        "egg-ci": "^1.11.0",
+        "egg-mock": "^3.21.0",
+        "eslint": "^5.13.0",
+        "eslint-config-egg": "^7.1.0",
         "webstorm-disable-index": "^1.2.0"
       },
       "engines": {
         "node": ">=8.9.0"
       },
       "scripts": {
-        "start": "egg-scripts start --daemon --title=egg-server-task",
-        "stop": "egg-scripts stop --title=egg-server-task",
+        "start": "egg-scripts start --daemon --title=egg-server-test",
+        "stop": "egg-scripts stop --title=egg-server-test",
         "dev": "egg-bin dev",
         "debug": "egg-bin debug",
         "test": "npm run lint -- --fix && npm run test-local",
@@ -223,12 +218,12 @@
         "type": "git",
         "url": ""
       },
-      "author": "xiaomai",
+      "author": "",
       "license": "MIT"
     },
-    "baseDir": "C:\\Users\\Administrator\\Desktop\\task\\task",
+    "baseDir": "C:\\Users\\Administrator\\Desktop\\eggtest\\test",
     "HOME": "C:\\Users\\Administrator",
-    "rundir": "C:\\Users\\Administrator\\Desktop\\task\\task\\run",
+    "rundir": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -259,7 +254,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "C:\\Users\\Administrator\\Desktop\\task\\task\\logs\\task",
+      "dir": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\logs\\test",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -267,7 +262,7 @@
       "disableConsoleAfterReady": false,
       "outputJSON": false,
       "buffer": true,
-      "appLogName": "task-web.log",
+      "appLogName": "test-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
@@ -302,6 +297,10 @@
       "logging": false
     },
     "coreMiddleware": [
+      "uuid",
+      "request",
+      "response",
+      "errCatch",
       "meta",
       "siteFile",
       "notfound",
@@ -327,11 +326,23 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
-    "middleware": [
-      "forbidip"
-    ],
+    "middleware": [],
     "forbidip": {
-      "ip": "127.0.0.1"
+      "ip": [
+        "127.0.0.1"
+      ]
+    },
+    "errCode": {
+      "APP_ERROR_CODE": "01",
+      "NOT_REGISTER_ERROR": "0000"
+    },
+    "errCatch": {
+      "responseErrorMsg": true
+    },
+    "response": {
+      "ignore": [
+        "/favicon.ico"
+      ]
     },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
@@ -357,8 +368,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg-session",
+      "from": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -370,8 +381,8 @@
         "session"
       ],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg-security",
+      "from": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-security",
       "version": "2.4.2"
     },
     "jsonp": {
@@ -383,8 +394,8 @@
         "security"
       ],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg-jsonp",
+      "from": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -396,8 +407,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg-onerror",
+      "from": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -407,8 +418,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg-i18n",
+      "from": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -418,8 +429,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg-watcher",
+      "from": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -429,8 +440,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg-schedule",
+      "from": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-schedule",
       "version": "3.6.0"
     },
     "multipart": {
@@ -442,8 +453,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg-multipart",
+      "from": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-multipart",
       "version": "2.4.0"
     },
     "development": {
@@ -457,8 +468,8 @@
       "env": [
         "local"
       ],
-      "from": "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg-development",
+      "from": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-development",
       "version": "2.4.2"
     },
     "logrotator": {
@@ -470,8 +481,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg-logrotator",
+      "from": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-logrotator",
       "version": "3.0.5"
     },
     "static": {
@@ -481,9 +492,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg-static",
-      "version": "2.1.1"
+      "from": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-static",
+      "version": "2.2.0"
     },
     "view": {
       "enable": true,
@@ -492,8 +503,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\task\\task\\node_modules\\egg-view",
+      "from": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg\\config\\plugin.js",
+      "path": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-view",
       "version": "2.1.2"
     }
   }
