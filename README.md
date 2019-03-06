@@ -1,7 +1,7 @@
 # egg+sequelize实现对数据库的增删改查，多表查询以及多表更新
 ## 快速开始
 ### 安装
-可以参照egg的官方文档使用。
+可以参照egg的官方文档使用。官方文档-https://eggjs.org/zh-cn/tutorials/sequelize.html
 
 ### 相关api的说明
 #### insertUsers（）：向Users表插入信息
