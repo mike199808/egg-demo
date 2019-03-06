@@ -93,6 +93,7 @@
         "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-logrotator\\config\\locales",
         "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-static\\config\\locales",
         "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-view\\config\\locales",
+        "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-sequelize\\config\\locales",
         "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg\\config\\locales",
         "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\config\\locales"
       ],
@@ -164,6 +165,14 @@
       "defaultViewEngine": "",
       "mapping": {}
     },
+    "sequelize": {
+      "dialect": "mysql",
+      "database": "test1",
+      "host": "127.0.0.1",
+      "port": 3306,
+      "username": "root",
+      "password": "<String len: 6>"
+    },
     "env": "local",
     "name": "test",
     "keys": "<String len: 23>",
@@ -182,9 +191,9 @@
       "dependencies": {
         "egg": "^2.15.1",
         "egg-scripts": "^2.11.0",
+        "egg-sequelize": "^4.3.1",
         "egg-syllabus-framework": "^1.0.28",
-        "mysql2": "^1.6.5",
-        "sequelize": "^4.42.1"
+        "mysql2": "^1.6.5"
       },
       "devDependencies": {
         "autod": "^3.0.1",
@@ -194,6 +203,7 @@
         "egg-mock": "^3.21.0",
         "eslint": "^5.13.0",
         "eslint-config-egg": "^7.1.0",
+        "sequelize-cli": "^5.4.0",
         "webstorm-disable-index": "^1.2.0"
       },
       "engines": {
@@ -327,11 +337,6 @@
     },
     "onClientError": null,
     "middleware": [],
-    "forbidip": {
-      "ip": [
-        "127.0.0.1"
-      ]
-    },
     "errCode": {
       "APP_ERROR_CODE": "01",
       "NOT_REGISTER_ERROR": "0000"
@@ -506,6 +511,17 @@
       "from": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg\\config\\plugin.js",
       "path": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-view",
       "version": "2.1.2"
+    },
+    "sequelize": {
+      "enable": true,
+      "package": "egg-sequelize",
+      "name": "sequelize",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\config\\plugin.js",
+      "path": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-sequelize",
+      "version": "4.3.1"
     }
   }
 }

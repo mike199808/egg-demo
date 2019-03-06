@@ -20,17 +20,20 @@ module.exports = appInfo => {
   config.security = {
     csrf: false,
   };
-  config.forbidip = {
-    ip: [
-      '127.0.0.1',
-    ],
-  };
   config.errCode = {
     APP_ERROR_CODE: '01', // 应用错误码，错误码1-2位，其他为3-6位
     NOT_REGISTER_ERROR: '0000', // 未登记默认错误码
   };
   config.errCatch = {
     responseErrorMsg: true,
+  };
+  config.sequelize = {
+    dialect: 'mysql',
+    host: '127.0.0.1',
+    port: 3306,
+    database: 'test1',
+    username: 'root',
+    password: '123456',
   };
   config.response = {
     ignore: [

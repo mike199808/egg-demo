@@ -44,15 +44,20 @@
       "checkAddress": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg-security\\config\\config.default.js"
     }
   },
-  "forbidip": {
-    "ip": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\config\\config.default.js"
-  },
   "errCode": {
     "APP_ERROR_CODE": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\config\\config.default.js",
     "NOT_REGISTER_ERROR": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\config\\config.default.js"
   },
   "errCatch": {
     "responseErrorMsg": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\config\\config.default.js"
+  },
+  "sequelize": {
+    "dialect": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\config\\config.default.js",
+    "host": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\config\\config.default.js",
+    "port": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\config\\config.default.js",
+    "database": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\config\\config.default.js",
+    "username": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\config\\config.default.js",
+    "password": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\config\\config.default.js"
   },
   "response": {
     "ignore": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\config\\config.default.js"
@@ -163,9 +168,9 @@
     "dependencies": {
       "egg": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg\\config\\config.default.js",
       "egg-scripts": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg\\config\\config.default.js",
+      "egg-sequelize": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg\\config\\config.default.js",
       "egg-syllabus-framework": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg\\config\\config.default.js",
-      "mysql2": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg\\config\\config.default.js",
-      "sequelize": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg\\config\\config.default.js"
+      "mysql2": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
       "autod": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg\\config\\config.default.js",
@@ -175,6 +180,7 @@
       "egg-mock": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg\\config\\config.default.js",
       "eslint": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg\\config\\config.default.js",
       "eslint-config-egg": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg\\config\\config.default.js",
+      "sequelize-cli": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg\\config\\config.default.js",
       "webstorm-disable-index": "C:\\Users\\Administrator\\Desktop\\eggtest\\test\\node_modules\\egg\\config\\config.default.js"
     },
     "engines": {

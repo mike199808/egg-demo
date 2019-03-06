@@ -19,8 +19,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/sequelize/createtable",
-    "regexp": "/^\\/sequelize\\/createtable(?:\\/(?=$))?$/",
+    "path": "/sequelize/insertUsers",
+    "regexp": "/^\\/sequelize\\/insertUsers(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -32,21 +32,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/sequelize/insertUser",
-    "regexp": "/^\\/sequelize\\/insertUser(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [],
-    "path": "/sequelize/insertinformation",
-    "regexp": "/^\\/sequelize\\/insertinformation(?:\\/(?=$))?$/",
+    "path": "/sequelize/insertInformation",
+    "regexp": "/^\\/sequelize\\/insertInformation(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
